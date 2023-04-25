@@ -2,9 +2,11 @@ Pagi semuanya
 
 Pada kesempatan ini saya akan sharing tentang sebuah konsep, sebuah standar yang bernama solid principal
 dimana konsep ini banyak di manfaat kan oleh programmer agar projek yang dibangun dapat di manage dengan baik,
-lebih mudah di maintain, dan juga reusable. Umum nya konsep ini di terapkan di pemrograman yang berbasis object oriented, nah disini saya akan menjelaskan nya dalam bahasa pemrograman PHP.
+lebih mudah di maintain, dan juga reusable. 
+Umum nya konsep ini di terapkan di pemrograman yang berbasis object oriented, nah disini saya akan menjelaskan nya dalam bahasa pemrograman PHP.
 
-Mungkin teman2 yang lain ada yang udah tau dengan konsep ini, atau bahkan udh ada yang menerapkan di projek masing2, Semisalnya udh ada, kalo nanti dari yang ku sampaikan ada yang kurang, atau ada yang salah, boleh di sanggah
+Mungkin teman2 yang lain ada yang udah tau dengan konsep ini, atau bahkan udh ada yang menerapkan di projek masing2, 
+Semisalnya udh ada, kalo nanti dari yang ku sampaikan ada yang kurang, atau ada yang salah, boleh di sanggah
 dan boleh di jelaskan supaya kita bisa sama2 belajar
 
 Nah langsung saja, solid ini sendiri merupakan sebuah singkatan yang terdiri dari 5 prinsip :
@@ -15,20 +17,47 @@ Nah langsung saja, solid ini sendiri merupakan sebuah singkatan yang terdiri dar
 - D : Dependency Inversion/Injention Principle
  
 #S
-Prinsip ini menyaran kan kita agar dalam sebuah class, hanya boleh bertanggung jawab untuk mengelola yg berhubungan dengan bagiannya nya sendiri. Artinya tidak boleh di campurkan dengan fungsi2 yang lain, yang tidak berhubungan langsung dengan diri nya sendiri
+Prinsip ini menyaran kan kita agar dalam sebuah class, hanya boleh bertanggung jawab untuk mengelola yg berhubungan dengan bagiannya nya sendiri. 
+Artinya tidak boleh di campurkan dengan fungsi2 yang lain, yang tidak berhubungan langsung dengan diri nya sendiri.
+Manfaat :
+- Kode lebih rapi
+- Mudah dibaca dan dipahami
+
 
 #O
-Prinsip ini menganjurkan kita, supaya yang namanya class, close untuk modification tetapi open untuk extension. Maksudnya apa, jadi kalo misalnya kita punya sebuah kelas, itu sebaiknya ga bisa diubah2, kalau misalnya kita ingin menambahkan fitur atau function, kita hanya bisa menambahkan nya, tetapi tidak langsung di class nya. Supaya lebih jelas saya kasi contoh
+Prinsip ini menganjurkan kita, supaya yang namanya class, close untuk modification tetapi open untuk extension. 
+Maksudnya apa, jadi kalo misalnya kita punya sebuah kelas, itu sebaiknya ga bisa diubah2. 
+Kalau misalnya kita ingin menambahkan fitur atau function, kita hanya bisa menambahkan nya, 
+tetapi tidak langsung di class nya. Supaya lebih jelas saya kasi contoh
+Manfaat :
+- Meminimalisir terjadi nya bug akibat otak atik kode
+
 
 #L
-Prinsip ini mengajarkan kita, supaya setiap class yang merupakan turunan dari parent nya, itu harus memiliki sifat atau perilaku yang dimiliki oleh parent nya. Contoh nya sepertia apa
+Prinsip ini mengajarkan kita, supaya setiap class yang merupakan turunan dari parent nya, 
+itu harus memiliki sifat atau perilaku yang dimiliki oleh parent nya. Contoh nya sepertia apa
+Manfaat :
+- Mengindaari kesalahan logic dalam class turunan nya
+
 
 #I
+Prinsip ini lebih di tujukan dalam pengaplikasian interface. Jadi kita disarankan untuk membuat interface dengan tujuan yang lebih spesifik
+Maksudnya, Class2 yang mengimplementasi interface tersebut tidak dipaksakan untuk mengimplementasi fungsi2 yang tidak dibutuhkan.
+Contoh nya seperti ini
+- Kode lebih mudah di maintain dalam bagian2 kecil
+
 
 #D
-
+Pada prinsip ini, High level modul tidak boleh bergantung pada low level modul. 
+Dua2 nya itu harus bergantung pada abstraction.
+abstraction itu juga tidak boleh bergantung pada detail, detail lah yang bergantung pada abstraction
+Makasudnya apa ?
+Jadi kan ketika kita membuat sebuah sistem, itukan biasanya ada yang global nya, ada juga yang detailnya
+Yang global itu biasanya ga mudah berubah, yg detail itu biasanya mudah berubah
 
 
 * Inheritance
 
 * Polimorpishm
+
+

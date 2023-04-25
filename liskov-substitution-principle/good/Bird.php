@@ -21,7 +21,7 @@ class FlyingBird
     }
 }
 
-class Parrot extends FlyingBird
+class Parrot extends Bird
 {
     function fly()
     {
