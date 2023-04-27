@@ -1,6 +1,6 @@
 Pagi semuanya
 
-Pada kesempatan ini saya akan sharing tentang sebuah konsep, sebuah standar yang bernama solid principal
+Disini saya akan sharing tentang sebuah konsep, sebuah standar yang bernama solid principal
 dimana konsep ini banyak di manfaat kan oleh programmer agar projek yang dibangun dapat di manage dengan baik,
 lebih mudah di maintain, dan juga reusable. 
 Umum nya konsep ini di terapkan di pemrograman yang berbasis object oriented, nah disini saya akan menjelaskan nya dalam bahasa pemrograman PHP.
@@ -35,7 +35,7 @@ Manfaat :
 
 #L
 Prinsip ini mengajarkan kita, supaya setiap class yang merupakan turunan dari parent nya, 
-itu harus memiliki sifat atau perilaku yang dimiliki oleh parent nya. Contoh nya sepertia apa
+itu harus memiliki sifat atau perilaku yang dimiliki oleh parent nya tanpa menyebabkan kesalahan logic ataupun kesalahan teknis. Agak sulit untuk dijelaskan, mungkin langsung saja saya kasi contoh nya
 Manfaat :
 - Mengindaari kesalahan logic dalam class turunan nya
 

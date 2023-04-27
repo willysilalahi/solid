@@ -15,6 +15,11 @@ class Bird
 
 class FlyingBird
 {
+    function eat()
+    {
+        // do something
+    }
+
     function fly()
     {
         //do something
@@ -23,6 +28,11 @@ class FlyingBird
 
 class Parrot extends Bird
 {
+    function eat()
+    {
+        // do something
+    }
+
     function fly()
     {
         // do something
@@ -30,7 +40,7 @@ class Parrot extends Bird
 }
 
 
-class Kiwi extends Bird
+class Penguin extends Bird
 {
     function eat()
     {
