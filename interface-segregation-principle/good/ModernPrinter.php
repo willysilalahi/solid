@@ -1,5 +1,5 @@
 <?php
-class ModernPrinter implements SmartPrinter
+class ModernPrinter implements Printable, Scanable, Copyable
 {
 	function print()
 	{

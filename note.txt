@@ -41,10 +41,10 @@ Manfaat :
 
 
 #I
-Prinsip ini lebih di tujukan dalam pengaplikasian interface. Jadi kita disarankan untuk membuat interface dengan tujuan yang lebih spesifik
+Prinsip ini agak sedikit mirip dengan prinsip yang L, tapi prinsip ini lebih di tujukan dalam pengaplikasian interface. Jadi kita disarankan untuk membuat interface dengan tujuan yang lebih spesifik
 Maksudnya, Class2 yang mengimplementasi interface tersebut tidak dipaksakan untuk mengimplementasi fungsi2 yang tidak dibutuhkan.
 Contoh nya seperti ini
-- Kode lebih mudah di maintain dalam bagian2 kecil
+- Kode lebih flexibel Kode lebih mudah di maintain dalam bagian2 kecil
 
 
 #D
@@ -57,7 +57,7 @@ Yang global itu biasanya ga mudah berubah, yg detail itu biasanya mudah berubah
 
 
 * Inheritance
-
+* Interface
 * Polimorpishm
 
 
