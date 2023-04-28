@@ -41,6 +41,6 @@ class Penguin extends Bird
 
     function fly()
     {
-        // do nothing
+        // do nothing 
     }
 }

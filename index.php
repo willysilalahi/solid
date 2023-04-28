@@ -7,7 +7,5 @@ SOLID PRINCIPLE
 - O : Open Closed Principle
 - L : Liskov Substitution Principle
 - I : Interface Segregation Principle
-- D : Dependency Inversion/Injention Principle
-
-
+- D : Dependency Inversion Principle
 */

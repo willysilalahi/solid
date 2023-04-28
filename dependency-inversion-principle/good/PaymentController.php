@@ -5,6 +5,7 @@ class PaymentController
 	{
 		$this->paymentGateway = $paymentGateway;
 	}
+
 	function pay()
 	{
 		$this->paymentGateway->pay();

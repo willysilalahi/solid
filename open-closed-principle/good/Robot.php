@@ -18,11 +18,5 @@ class SuperRobot extends Robot
 {
     function walk()
     {
-        // do something
-    }
-
-    function run()
-    {
-        // do something
     }
 }

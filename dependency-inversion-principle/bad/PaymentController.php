@@ -7,6 +7,7 @@ class PaymentController
 	{
 		$this->paymentGateway = $doku;
 	}
+
 	function pay()
 	{
 		$this->paymentGateway->payWithDoku();
