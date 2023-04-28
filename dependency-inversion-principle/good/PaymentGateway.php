@@ -1,5 +1,5 @@
 <?php
-interface PaymentGateway
+abstract class PaymentGateway
 {
-	function pay();
+	abstract public function pay();
 }

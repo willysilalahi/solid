@@ -50,10 +50,9 @@ Contoh nya seperti ini
 #D
 Pada prinsip ini, High level modul tidak boleh bergantung pada low level modul. 
 Dua2 nya itu harus bergantung pada abstraction.
-abstraction itu juga tidak boleh bergantung pada detail, detail lah yang bergantung pada abstraction
-Makasudnya apa ?
-Jadi kan ketika kita membuat sebuah sistem, itukan biasanya ada yang global nya, ada juga yang detailnya
-Yang global itu biasanya ga mudah berubah, yg detail itu biasanya mudah berubah
+Sedangkan abstraction itu juga tidak boleh bergantung pada detail, detail lah yang bergantung pada abstraction
+Makasudnya apa ? 
+Simulasikan ingin menambahkan payment method lain, misalnya midtrans
 
 
 * Inheritance

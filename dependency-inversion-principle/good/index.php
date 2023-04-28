@@ -1,8 +1,4 @@
 <?php
-spl_autoload_register();
-$controllers = [];
-$controllers[] = new PaymentController(new Doku());
-foreach ($controllers as $ctl) {
-	$ctl->pay();
-	print(PHP_EOL);
-}
+spl_autoload_register(); 
+$payment = new PaymentController(new Midtrans()); 
+$payment->pay();

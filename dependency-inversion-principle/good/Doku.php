@@ -1,5 +1,5 @@
 <?php
-class Doku implements PaymentGateway
+class Doku extends PaymentGateway
 {
 	function pay()
 	{
